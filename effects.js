@@ -1,13 +1,3 @@
-
-document.addEventListener("DOMContentLoaded", function ( e ) {
-
-    
-    jQuery( '.break-wrap' ).html(
-            CoderEffects.embedTag(
-                    CoderEffects.breakString(
-                            jQuery( '.break-wrap' ).html( ) , 3 )) );
-    
-});
 /**
  * @return {null}
  */
